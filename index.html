@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Hello, world!</title>
+
+<style>
+  #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(133, 133, 133); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.card-img-top, .card {
+  border-radius: 10%;
+}
+
+</style>
+  </head>
+
+  <body class="bg-light">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.JPG" width="300px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#cars">Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#enquiries">Enquiries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div class="col">
+
+   
+   <section class="mt-5">   
+   <h1 id="cars">Vintage Cars For Hire</h2>            
+
+
+<h2 id="cars" class="mt-5">Cars</h2>
+
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="/images/car1.jpg" alt="A red and white van">
+    <div class="card-body">
+      <h5 class="card-title">Ashton '56</h5>
+      <p class="card-text">A red and white van.</p>
+   
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/images/car2.jpg" alt="A yellow convertible">
+    <div class="card-body">
+      <h5 class="card-title">Emphemera T-18</h5>
+      <p class="card-text">A yellow convertible.</p>
+   
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/images/car3.jpg" alt="A blue buggy">
+    <div class="card-body">
+      <h5 class="card-title">Hyla Ativa 4X-YV</h5>
+      <p class="card-text">A blue buggy.</p>
+     
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/images/car4.jpg" alt="A black personal luxury car">
+    <div class="card-body">
+      <h5 class="card-title">Devereaux 1934</h5>
+      <p class="card-text">A black personal luxury car.</p>
+
+    </div>
+  </div>
+</div>
+
+</section>
+<br>
+
+<section>
+<h2 id="enquiries" class="mt-5">Enquiries</h2>
+
+<p>Please do not hesitate to contact us directly. We will get repond to your enquiry as soon as possible.</p>
+
+<div class="rounded enquiryform border border-dark p-4" class="mt-5">
+  <div class="form-group">
+    <label for="fullname">Full name</label>
+    <input type="text" class="form-control" id="fullname" placeholder="Your name">
+  </div>
+  <div class="form-group">
+    <label for="selectcar">Choose a car</label>
+    <select class="form-control" id="selectcar">
+      <option>Ashton '56</option>
+      <option>Emphemera T-18</option>
+      <option>3Hyla Ativa 4X-YV</option>
+      <option>Devereaux 1934</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" placeholder="Your email address">
+  </div>
+  <div class="form-group">
+    <label for="comments">Comments</label>
+    <textarea class="form-control" id="comments" rows="3" placeholder="Your comments"></textarea>
+  </div>
+  <button type="submit" value="Submit" class="btn btn-success">SUBMIT</button>
+</form>
+</div>
+
+</section>
+
+<section>
+<h2 id="#contact" class="mt-5">Contact</h2>
+
+<p><strong>Vintage Car Hire</strong></p>
+<p><strong>Address:</strong> Hurghada, Red Sea Governorate, Egypt</p>
+<p><strong>Phone:</strong> 95671302</p>
+<p><strong>Email:</strong> customers@vintagecarhire.com</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3542.8491681742144!2d33.62993421505489!3d27.380425582928346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145265ec483b2331%3A0xe366ef1d890b57f6!2sDesert%20Breath!5e0!3m2!1sen!2sau!4v1640139235456!5m2!1sen!2sau" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<footer class="mt-5 text-center small-text"><small class="text-muted">Made by Vanessa Wang</small></footer>
+
+</div>
+</div>
+</div>
+    <!-- Optional JavaScript -->
+    <script>
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
